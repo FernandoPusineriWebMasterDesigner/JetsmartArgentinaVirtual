@@ -52,9 +52,9 @@ nav ul li a {
     padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra los elementos horizontalmente */
-    justify-content: center; /* Centra los elementos verticalmente */
-    text-align: center; /* Alinea el texto al centro */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }
 
 
@@ -72,6 +72,7 @@ nav ul li a {
     background-color: brown;
     color: white;
     padding: 50px;
+    
 }
 
 #avion {
