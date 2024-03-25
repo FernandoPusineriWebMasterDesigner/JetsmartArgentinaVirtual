@@ -21,6 +21,8 @@ h1 {
 
 nav {
     background-color: rgb(3, 30, 80);
+    display: flex;
+    justify-content: center;
     padding: 20px;
 }
 
