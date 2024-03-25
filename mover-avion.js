@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     const avion = document.getElementById('avion');
 
-   
+
     const velocidad = 2; 
 
     

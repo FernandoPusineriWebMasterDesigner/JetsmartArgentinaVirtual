@@ -95,3 +95,55 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+/* media query index*/
+
+/*moviles*/
+@media only screen and (max-width: 768px) {
+    nav img {
+        height: 30px; 
+        margin-right: 10px; 
+    }
+    
+    nav ul li {
+        margin-right: 10px; 
+    }
+    
+    #home {
+        padding: 30px; 
+    }
+    
+    #contact {
+        padding: 30px; 
+    }
+    
+    #avion {
+        margin-top: 30px; 
+    }
+}
+
+/*tablets*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav img {
+        height: 35px; 
+        margin-right: 15px; 
+    }
+    
+    nav ul li {
+        margin-right: 15px; 
+    }
+    
+    #home {
+        padding: 40px; 
+    }
+    
+    #contact {
+        padding: 40px; 
+    }
+    
+    #avion {
+        margin-top: 40px; 
+    }
+}
