@@ -51,7 +51,7 @@ nav ul li a {
 
 
 #home {
-    background-image: url(https://assets-us-01.kc-usercontent.com/b2956330-c34f-0064-2c6f-27bd5c0147fc/446a58bc-ba29-4ac5-8575-c24837165044/Fondo-Banner%20%2812%29.jpg?w=1920&h=500&fit=crop&auto=format&q=60&fm=jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/naturaleza-paisaje-colorido-atardecer-nube_1203-5705.jpg?t=st=1712084228~exp=1712087828~hmac=2ef72ca07b7644163684d8c0acba9fd99fbbffc46f1daec23aa0492e5a6c339b&w=1380);
     background-attachment: fixed;
     background-size: cover;
     padding: 50px;
@@ -95,10 +95,9 @@ nav ul li a {
 }
 
 #carouselDestinations {
-    border: 5px solid #4e4949; 
-    border-radius: 5px; 
+    border: 1px solid #b6e8ff; 
+    border-radius: 0px; 
     overflow: hidden; 
-    margin-bottom: 0.5px; 
 }
 
 
@@ -118,69 +117,4 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-}
-
-
-/* media query index*/
-
-/*moviles*/
-@media only screen and (min-width: 250px) and (max-width: 768px) {
-    nav img {
-        height: 30px;
-        margin-right: 10px;
-    }
-    
-    nav ul li {
-        margin-right: 10px;
-    }
-    
-    #home {
-        padding: 30px;
-    }
-    
-    #contact {
-        padding: 30px;
-    }
-    
-    #avion {
-        margin-top: 30px;
-    }
-
-    #carouselDestinations .carousel-item img {
-        height: auto;
-        max-width: 100%;
-    }
-    
-    #carouselDestinations .carousel-item {
-        height: auto;
-    }
-    
-    #carouselDestinations .carousel-caption {
-        display: none; 
-    }
-}
-
-/*tablets*/
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    nav img {
-        height: 35px;
-        margin-right: 15px;
-    }
-
-    nav ul li {
-        margin-right: 15px;
-    }
-
-    #home {
-        padding: 40px;
-    }
-
-    #contact {
-        padding: 40px;
-    }
-
-    #avion {
-        margin-top: 40px;
-    }
 }
