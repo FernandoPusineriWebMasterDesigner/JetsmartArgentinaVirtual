@@ -72,7 +72,7 @@ nav ul li a {
 }
 
 #contact {
-  background-color: brown;
+  background-image: url(https://images.unsplash.com/photo-1696117441480-f3873f04432d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   color: white;
   padding: 50px;
 }
@@ -110,6 +110,34 @@ footer {
   height: auto;
 }
 
+/* SECCION HISTORIA*/
+
+#carouselhistoria {
+
+  background-color: rgb(156, 15, 15);
+  border-radius: 0px;
+  overflow: hidden;
+  padding: 45px;
+  
+  
+  
+}
+
+#carrouselhistoria h3{
+
+  font-weight: bold;
+
+}
+
+#carouselhistoria .carousel-item2 img {
+  max-width: 100%;
+}
+
+#carouselhistoria .carousel-item2 {
+  height: auto;
+}
+
+
 @media screen and (min-width: 375px) and (max-width: 1366px) {
   nav {
     padding: 60px;
@@ -146,10 +174,20 @@ footer {
 
   #carouselDestinations .carousel-item img {
     max-width: 100%;
-    height: 180px;
+    
   }
 
   #destinations {
+    max-width: 100%;
+    height: 180px;
+  }
+
+  #carouselhistoria .carousel-item img {
+    max-width: 100%;
+    height: 180px;
+  }
+
+  #historia {
     max-width: 100%;
     height: 180px;
   }
