@@ -114,7 +114,6 @@ footer {
 
 .quienes-somos {
   padding: 50px 0;
-  /* background-color: #f8f9fa; */
   background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-realista_23-2149023991.jpg?w=1380);
 }
 
@@ -135,8 +134,75 @@ footer {
   height: 500%;
 }
 
+/*seccion rutas*/
+
+#rutas{
+
+  background-image: url(https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  
+  
+}
+
+.nav-tabs {
+  margin-bottom: 30px; 
+}
 
 
+.nav-tabs .nav-link {
+  text-decoration: none; 
+  color: #0b0b0c;
+  background-color: #299eec;
+}
+
+.card {
+  margin-bottom: 30px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+}
+
+.card-img-top {
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px; 
+}
+
+.card-title {
+  font-size: 20px; 
+  font-weight: bold; 
+}
+
+.card-text {
+  font-size: 16px; 
+}
+
+
+.nav-tabs {
+  margin-bottom: 30px; 
+
+}
+
+
+.tab-content {
+  padding: 20px 0; 
+}
+
+
+.col-md-4 {
+  padding-right: 15px; 
+  padding-left: 15px; 
+}
+
+#internacionales .col-md-4 {
+  flex: 0 0 50%; 
+  max-width: 50%; 
+  margin: 0 auto;
+}
+
+#internacionales .card {
+  margin-bottom: 30px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  text-align: center; 
+}
 
 @media screen and (min-width: 375px) and (max-width: 1366px) {
   nav {
@@ -145,7 +211,7 @@ footer {
   }
 
   body,
-  p,
+  p, 
   h1,
   h2,
   h3,
@@ -229,6 +295,8 @@ footer {
     margin-top: 20px;
   }
 
+}
+
   @media screen and (min-width: 375px) and (max-width: 1366px) {
     .menu {
       position: fixed;
@@ -291,7 +359,7 @@ footer {
     }
   }
 
-}
+
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
   .menu {
@@ -355,3 +423,9 @@ footer {
   }
 }
 
+@media (max-width: 767.98px) {
+  #internacionales .col-md-4 {
+    flex: 0 0 100%; 
+    max-width: 100%; 
+  }
+}
