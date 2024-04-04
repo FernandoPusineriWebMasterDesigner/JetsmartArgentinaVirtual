@@ -194,17 +194,24 @@ footer {
 }
 
 
-  #contact {
-    padding: 50px;
-  }
-
   #home {
-    padding: 160px;
+    
+    font-size: 50px;
   }
 
-  #home h2,
+  #home h1,h2{
+
+    font-size: 40px;
+  }
+
+  #home h3{
+
+    font-size: 25px;
+  }
+
   #home h3:nth-of-type(2) {
-    display: none;
+    margin-bottom: 25px;
+    font-size: 25px;
   }
 
   #avion {
