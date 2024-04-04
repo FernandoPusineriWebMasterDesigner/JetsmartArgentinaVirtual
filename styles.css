@@ -136,74 +136,251 @@ footer {
 
 /*seccion rutas*/
 
-#rutas{
+#rutas {
 
   background-image: url(https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  
-  
+
+
 }
 
 .nav-tabs {
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 
 .nav-tabs .nav-link {
-  text-decoration: none; 
+  text-decoration: none;
   color: #0b0b0c;
   background-color: #299eec;
   margin-top: 30px;
 }
 
 .card {
-  margin-bottom: 30px; 
-  border: 1px solid #ddd; 
-  border-radius: 8px; 
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
 .card-img-top {
-  border-top-left-radius: 8px; 
-  border-top-right-radius: 8px; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .card-title {
-  font-size: 20px; 
-  font-weight: bold; 
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .card-text {
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 
 .nav-tabs {
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 
 }
 
 
 .tab-content {
-  padding: 20px 0; 
+  padding: 20px 0;
 }
 
 
 .col-md-4 {
-  padding-right: 15px; 
-  padding-left: 15px; 
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #internacionales .col-md-4 {
-  flex: 0 0 50%; 
-  max-width: 50%; 
+  flex: 0 0 50%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
 #internacionales .card {
-  margin-bottom: 30px; 
-  border: 1px solid #ddd; 
-  border-radius: 8px; 
-  text-align: center; 
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
 }
+
+/* sección flota*/
+#a320 {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom right, #e0e0e0, #f0f0f0);
+  color: #333;
+}
+
+#a320 h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#caracteristicas {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(19, 18, 18, 0.1);
+  background: linear-gradient(to bottom right, #6b6a6a, #535252);
+  /* Fondo con degradado */
+}
+
+#caracteristicas h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #d2d2d8;
+}
+
+#caracteristicas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#caracteristicas ul li {
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #131212;
+  padding-bottom: 5px;
+  color: #f9f9fa;
+  background-color: #201d1d;
+}
+
+.fotorealjetsmart {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotorealjetsmart img {
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+
+
+#a320 {
+  position: relative;
+  overflow: hidden;
+}
+
+#a320:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+  z-index: 1;
+}
+
+#a320 img {
+  position: relative;
+  z-index: 2;
+}
+
+#caracteristicas ul li:before {
+  content: '\2022';
+  color: #201d1d;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+
+#flota {
+  padding: 50px;
+  background-color: #333030;
+  text-align: center;
+}
+
+#flota h1 {
+
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #b1bfc5;
+
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta {
+  width: 300px;
+  margin: 0 20px 20px;
+  padding: 20px;
+  background-color: #eee9e9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+
+.tarjeta h3 {
+  margin-bottom: 10px;
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  margin-bottom: 10px;
+}
+
+
+#video {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  background-color: #333030;
+}
+
+#video iframe {
+  width: 100%;
+  height: 550px;
+  border: none;
+}
+
+#video h1 {
+
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #b1bfc5;
+}
+
+/*formato celus y tablets*/
 
 @media screen and (min-width: 375px) and (max-width: 1366px) {
   nav {
@@ -212,7 +389,7 @@ footer {
   }
 
   body,
-  p, 
+  p,
   h1,
   h2,
   h3,
@@ -240,38 +417,39 @@ footer {
   }
 
   #carouselDestinations .carousel-item img {
-    width: 100vw; 
-    height: auto; 
-}
-
-#carouselDestinations .carousel-item {
-    width: 100vw; 
+    width: 100vw;
     height: auto;
-}
+  }
 
-#carouselDestinations .carousel-inner {
-    width: 100%; 
+  #carouselDestinations .carousel-item {
+    width: 100vw;
     height: auto;
-}
+  }
 
-#destinations {
-    width: 100vw; 
-    height: auto; 
-    
-}
+  #carouselDestinations .carousel-inner {
+    width: 100%;
+    height: auto;
+  }
+
+  #destinations {
+    width: 100vw;
+    height: auto;
+
+  }
 
 
   #home {
-    
+
     font-size: 50px;
   }
 
-  #home h1,h2{
+  #home h1,
+  h2 {
 
     font-size: 40px;
   }
 
-  #home h3{
+  #home h3 {
 
     font-size: 25px;
   }
@@ -296,73 +474,128 @@ footer {
     margin-top: 20px;
   }
 
-  #nacionales-tab, #internacionales-tab {
-    margin-top: 38px; 
+  #nacionales-tab,
+  #internacionales-tab {
+    margin-top: 38px;
   }
+
+  #a320 {
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+#a320 p {
+    text-align: justify; /* Justifica el texto */
+}
+
+#a320 img:nth-of-type(1) {
+  display: block;
+}
+
+/* Estilos para la sección Flota */
+#flota {
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 300px; /* Ancho de la tarjeta */
+    margin: 0 20px 20px; /* Espacio alrededor de las tarjetas */
+    padding: 20px; /* Espacio interno de la tarjeta */
+    background-color: white; /* Color de fondo de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: justify; /* Justificar el texto */
+}
+
+.tarjeta h3 {
+    margin-bottom: 10px;
+}
+
+.tarjeta img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espacio inferior entre la imagen y el texto */
+}
+
+.tarjeta p {
+    margin-bottom: 10px; /* Espacio inferior entre párrafos */
+}
+
+/* Estilos para la sección Video */
+#video iframe {
+    width: 100%; /* Establece el ancho al 100% */
+    height: 550px; /* Establece la altura deseada */
+    border: none; /* Elimina el borde del iframe */
+}
 
 }
 
-  @media screen and (min-width: 375px) and (max-width: 1366px) {
-    .menu {
-      position: fixed;
-      top: 174px;
-      right: 0;
-      max-height: calc(4vh - 10px);
-      overflow-y: auto;
-      width: 998px;
-      font-size: 9px;
-      overflow-y: auto;
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 20px;
-      box-sizing: border-box;
-      transform: translateX(100%);
-      transition: transform 0.3s ease;
-      margin-top: 1px;
-      padding-top: 0;
-      z-index: 1000;
-      white-space: nowrap;
-    }
-
-    .menu.active {
-      transform: translateX(0);
-    }
-
-    .menu li {
-      display: inline-block;
-      margin-bottom: 10px;
-    }
-
-    .menu li:last-child {
-      margin-bottom: 0;
-    }
-
-    .menu li a {
-      display: block;
-      color: #fff;
-      text-decoration: none;
-      padding: 2px 5px;
-      font-size: 14px;
-    }
-
-    .hamburger-menu {
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 25px;
-      height: 20px;
-      z-index: 1000;
-      position: relative;
-    }
-
-    .bar {
-      width: 100%;
-      height: 2px;
-      background-color: white;
-      margin: 2px 0;
-    }
+@media screen and (min-width: 375px) and (max-width: 1366px) {
+  .menu {
+    position: fixed;
+    top: 174px;
+    right: 0;
+    max-height: calc(4vh - 10px);
+    overflow-y: auto;
+    width: 998px;
+    font-size: 9px;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    margin-top: 1px;
+    padding-top: 0;
+    z-index: 1000;
+    white-space: nowrap;
   }
+
+  .menu.active {
+    transform: translateX(0);
+  }
+
+  .menu li {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .menu li:last-child {
+    margin-bottom: 0;
+  }
+
+  .menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 5px;
+    font-size: 14px;
+  }
+
+  .hamburger-menu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 20px;
+    z-index: 1000;
+    position: relative;
+  }
+
+  .bar {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 2px 0;
+  }
+}
 
 
 
@@ -430,22 +663,25 @@ footer {
 
 @media (max-width: 767.98px) {
   #internacionales .col-md-4 {
-    flex: 0 0 100%; 
-    max-width: 100%; 
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .nav-tabs {
-    margin-bottom: 30px; /* Espacio entre las pestañas y el contenido */
+    margin-bottom: 30px;
+    /* Espacio entre las pestañas y el contenido */
   }
 
   .nav-tabs .nav-item {
-    margin-bottom: 10px; /* Ajustar el espacio entre los botones de pestañas */
+    margin-bottom: 10px;
+    /* Ajustar el espacio entre los botones de pestañas */
   }
 
-  
-  #nacionales-tab, #internacionales-tab {
-    margin-top: 38px; 
+
+  #nacionales-tab,
+  #internacionales-tab {
+    margin-top: 38px;
   }
 
-  
+
 }
