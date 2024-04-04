@@ -295,6 +295,10 @@ footer {
     margin-top: 20px;
   }
 
+  #nacionales-tab, #internacionales-tab {
+    margin-top: 38px; 
+  }
+
 }
 
   @media screen and (min-width: 375px) and (max-width: 1366px) {
@@ -304,7 +308,7 @@ footer {
       right: 0;
       max-height: calc(4vh - 10px);
       overflow-y: auto;
-      width: 1025px;
+      width: 998px;
       font-size: 9px;
       overflow-y: auto;
       background-color: rgba(0, 0, 0, 0.8);
@@ -428,4 +432,19 @@ footer {
     flex: 0 0 100%; 
     max-width: 100%; 
   }
+
+  .nav-tabs {
+    margin-bottom: 30px; /* Espacio entre las pestañas y el contenido */
+  }
+
+  .nav-tabs .nav-item {
+    margin-bottom: 10px; /* Ajustar el espacio entre los botones de pestañas */
+  }
+
+  
+  #nacionales-tab, #internacionales-tab {
+    margin-top: 38px; 
+  }
+
+  
 }
